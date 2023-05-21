@@ -1,5 +1,5 @@
 # Comment parser
-Hello! This code was created to automate comments writing on site, an analogue of YouTube, in short, who understood, he understood.
+Hello! This code was created to automate comments writing on site, an analogue of YouTube.
 
 Below is the indicated position, on the use of this miracle of engineering.
 
