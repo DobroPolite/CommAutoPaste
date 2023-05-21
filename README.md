@@ -1,4 +1,4 @@
-# Comment parser from xlsx doc
+# Comment injector from xlsx doc
 Hello! This code was created to automate comments writing on site, an analogue of YouTube.
 
 Below is the indicated position, on the use of this miracle of engineering.
