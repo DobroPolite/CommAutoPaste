@@ -1,39 +1,29 @@
-# NakrutkaKommentariev
-Анша Абдуль! Данный код создан для накрутки комментариев на одном хорошем сайте, аналоге Ютубов, короче кто понят, тот понял.
+# Comment parser
+Hello! This code was created to automate comments writing on site, an analogue of YouTube, in short, who understood, he understood.
 
-Снизу указана инструкция, по пользованию данным чудом инженерии и абдулошаолиней.
+Below is the indicated position, on the use of this miracle of engineering.
 
-**Инструкция**:
+**Instruction**:
 
-1. Рабочую программу или код можно скачать либо с этой [ссылки](https://drive.google.com/file/d/15sfHTvChkgC_TxmTWW-p0D1XtDUhpy2S/view?usp=sharing), либо склонировав данный репозиторий себе на абдулокомп, соответстевнно. [Инструкция по клонированию]( https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
-2. Создать в любом месте папку и туда закинуть .exe файл исполняемого кода. Если код склонирован с репозитория то делать ничего в данном шаге не нужно.
-3. В папку проекта закинуть файл accounts.txt и файл с комментариями в формате .xlsx, все должно выглядить примерно так:
+1. The working program or code can be installed by browsing this repository on your computer. [Cloning instructions]( https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+2. In the project folder, upload the account.txt file and the .xlsx file with comments, everything should look something like this:
 
-	![truefileconfig](https://user-images.githubusercontent.com/119446060/219869588-f82cea42-c359-40bd-bc3d-36424dc50880.png)
+![truefileconfig2](https://user-images.githubusercontent.com/119446060/219869695-f9973c54-e718-4bd9-ab9e-047354a47d0a.png)
 
-	Или же вот так, если вы решили клонировать репозиторий, а не скачивать файл .exe:
-	
-	![truefileconfig2](https://user-images.githubusercontent.com/119446060/219869695-f9973c54-e718-4bd9-ab9e-047354a47d0a.png)
+3. After the preliminary procedures, you can run the file itself. The file will meet three inputs in turn: **file name with comments, video URL and number of comments**.
 
-4. После предварительных процедур, можно запускать сам файл. В файле встретят три инпута поочередно: **имя файла с комментариями, URL-адрес видео и количество комментариев**. 
+In the field with **file name**, enter ONLY the name, without the file format. The file must be in the .xlsx format, otherwise the program will not work and will issue the following *exception*:
 
-	В поле с **именем файла**, вводим ТОЛЬКО имя, без формата файла. Файл обязательно должен быть в формате .xlsx, иначе программа работать не будет и будет выдавать вот такое *исключение*:
-	
-	![ex1](https://user-images.githubusercontent.com/119446060/219870406-33c6bf09-98bd-48b5-baa6-f8c81d819c7b.png)
-	
-	Также, надо вводить правильное имя, что-бы избежать другого *исключения*:
-	
-	![ex2](https://user-images.githubusercontent.com/119446060/219870599-19f56b43-2de7-4350-8029-fe9d79f5f9e6.png)
+![ex1](https://user-images.githubusercontent.com/119446060/219870406-33c6bf09-98bd-48b5-baa6-f8c81d819c7b.png)
+
+You also need to enter the correct name to avoid another *exception*:
+
+![ex2](https://user-images.githubusercontent.com/119446060/219870599-19f56b43-2de7-4350-8029-fe9d79f5f9e6.png)
 
 
-	В поле с **URL-адресом** требуется ввсети правильную ссылку на видео, или будет сгенерировано такое *исключение*: 
-	
-	![ex3](https://user-images.githubusercontent.com/119446060/219870796-16b038dc-8691-4a68-83aa-37e402100722.png)
-	
-	В поле с **количеством комментариев** надо ввести само количество комментариев цельм числом, как не трудно догадаться.
-5. После этого ждите, пока программа сама не закроется. Конец, результат на сайте.	
+The **URL** field requires a set of rules to send to the video, or the following *exception* will be generated:
 
-```
-Дискорд для связи или претензий: Therion#1419
-Удачи в использовании, Анша Абдуль!
-```
+![ex3](https://user-images.githubusercontent.com/119446060/219870796-16b038dc-8691-4a68-83aa-37e402100722.png)
+
+In the field with **number of comments**, you must enter the number of comments as a whole number, as you might guess.
+4. After that, wait until the program closes itself. The end, the result on the site.
